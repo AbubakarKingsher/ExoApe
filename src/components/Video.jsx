@@ -9,18 +9,22 @@ function Video() {
     const videoParent = useRef(null);
 
     useEffect(() => {
+
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: parent.current,
-                start: "top top",
-                end: "+=500",
+                start: "0%",
+                end: "+=600",
                 pin: true,
                 scrub: 2,
-            },
+                markers: true
+            }
         });
 
         tl.to(videoDev.current, { width: "100%", duration: 2 }, 0);
         tl.to(videoParent.current, { gap: "1%", duration: 2 }, 0);
+
+
     }, []);
 
     return (
