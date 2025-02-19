@@ -10,11 +10,11 @@ function Footer() {
                 className="h-full w-[85%] mx-auto flex md:flex-row flex-col items-center gap-20 md:justify-center"
             >
                 <div>
-                    <div className="text-[#E0CCBB] text-[10vw] leading-none mb-10 md:mt-0 mt-40">
+                    <div className="text-[#E0CCBB] md:text-[10vw] text-[20vw] leading-none mb-10 md:mt-0 mt-40">
                         <h1>Our</h1>
                         <h1>Story</h1>
                     </div>
-                    <p className="text-[2vw] text-[#AB9C90] md:w-[100%] w-60 ">
+                    <p className="md:text-[2vw] text-[#AB9C90] md:w-[100%] w-60 ">
                         The story behind Exo Ape is one of exploration, creativity and
                         curiosity.
                     </p>

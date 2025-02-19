@@ -11,6 +11,7 @@ function App() {
 
   const locomotiveScroll = new LocomotiveScroll();
 
+
   return (
     <div className="h-full w-full text-white">
       <Navbar />

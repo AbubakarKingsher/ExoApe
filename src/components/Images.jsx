@@ -15,7 +15,8 @@ function Images() {
         let tl = gsap.timeline({
             scrollTrigger: {
                 trigger: parent.current,
-                start: "top 100%",
+                start: "top -10%",
+                end: "bottom -50%",
                 scrub: 2,
             },
         });
@@ -23,7 +24,7 @@ function Images() {
         tl.to(
             image1.current,
             {
-                x: "80%",
+                x: "90%",
                 duration: 2,
                 ease: (0.37, 0, 0.63, 1),
             },
@@ -33,7 +34,7 @@ function Images() {
         tl.to(
             image2.current,
             {
-                x: "-75%",
+                x: "-85%",
                 duration: 2,
                 ease: (0.37, 0, 0.63, 1),
             },
@@ -43,7 +44,7 @@ function Images() {
         tl.to(
             video1.current,
             {
-                x: "-40%",
+                x: "-60%",
                 duration: 2,
                 ease: (0.37, 0, 0.63, 1),
             },
@@ -53,7 +54,7 @@ function Images() {
         tl.to(
             video2.current,
             {
-                x: "30%",
+                x: "50%",
                 duration: 2,
                 ease: (0.37, 0, 0.63, 1),
             },
